@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(65, 61, 80);
+}
+
+/* CONTAINER */
+.App{
+    max-width: 500px;
+    height: cover;
+    margin: 150px auto;
+    background-color: rgb(255, 248, 147);
+    border-radius: 10px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+/* CONTAINER */
+
+/* HEADER */
+.header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* HEADER */
+
+/* FORM INPUT */
+.text-add{
+    border-radius: 10px;
+    border: 0;
+    width: 340px;
+    height: 50px;
+    padding: 20px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 20px;
+    background-color: rgb(59, 88, 128);
+    color: white;
+}
+
+.text-add::placeholder{
+    color: white;
+}
+
+.button-add{
+    margin-left: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 0;
+    height: 50px;
+    width: 80px;
+    padding: 5px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: aqua;
+}
+
+.button-add:hover{
+    background-color: rgb(80, 235, 235);
+}
+/* FORM INPUT */
+
+/* LIST TODO */
+.list-container{
+    width: 440px;
+    margin-top: 20px;
+    background-color: rgb(7, 123, 190);
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.list-container p{
+    flex: 2;
+    font-size: 25px;
+    color: white;
+}
+.edit{
+    font-size: 30px;
+    color: rgb(251, 255, 0);
+    cursor: pointer;
+}
+
+.remove{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.edit:hover{
+    color: rgb(138, 139, 37);
+}
+
+.remove:hover{
+    color: rgb(161, 16, 16);
+}
+/* LIST TODO */
+
+/* TOOLS */
+.cancel-edit{
+    position: relative;
+    top: -120px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+.cancel-edit:hover{
+    color: rgb(161, 16, 16);
+}
+/* TOOLS */
